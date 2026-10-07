@@ -1,0 +1,154 @@
+[
+  {
+    "type": "ip_assignment",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "All work product, inventions, and developments created by Contractor, whether or not during working hours or using Client's resources, shall be the sole and exclusive property of Client.",
+    "explanation": "This assigns ALL your IP to the client — including anything you create on your own time, using your own tools. Extremely one-sided and commonly used to steal your side projects.",
+    "negotiation": "Add: 'Limited to work specifically created under this Agreement during contracted hours, using Client-provided resources. Contractor retains all pre-existing IP and developments unrelated to this project.'"
+  },
+  {
+    "type": "ip_assignment",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "Work product specifically created under this Agreement and paid for in full by Client shall be owned by Client upon receipt of final payment.",
+    "explanation": "Standard work-for-hire clause. You get paid, they get the deliverables. Ownership transfer is tied to payment.",
+    "negotiation": "No changes needed — this is fair. Ensure 'paid for in full' is clear."
+  },
+  {
+    "type": "ip_assignment",
+    "jurisdiction": "us",
+    "predatory": true,
+    "text": "Contractor hereby assigns all right, title, and interest in all inventions, ideas, and work product, including but not limited to moral rights, to Client in perpetuity.",
+    "explanation": "Includes 'moral rights' waiver (your right to be credited as the author). This is unusually aggressive and may not be enforceable in all jurisdictions.",
+    "negotiation": "Remove 'moral rights' language. Add carve-out: 'Contractor retains the right to display work in portfolio.'"
+  },
+  {
+    "type": "non_compete",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "Contractor agrees not to provide similar services to any competitor of Client or operate in the same industry for a period of 24 months following termination of this Agreement.",
+    "explanation": "A 24-month non-compete essentially kills your freelance career for 2 years. Courts in many jurisdictions won't enforce this, but it can still be used to threaten you.",
+    "negotiation": "Push back hard. If unavoidable, limit to: (1) direct competitors only, named specifically; (2) max 6 months; (3) a specific narrow geography."
+  },
+  {
+    "type": "non_compete",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "Contractor agrees not to directly solicit Client's named customers listed in Exhibit A for a period of 6 months following project completion.",
+    "explanation": "Limited non-solicitation (not non-compete). Restricted to named customers, short duration. This is reasonable.",
+    "negotiation": "Acceptable. Ensure Exhibit A is explicitly defined and not left blank."
+  },
+  {
+    "type": "indemnity",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "Contractor shall indemnify, defend, and hold harmless Client from any and all claims, damages, losses, costs, and expenses, including attorneys' fees, arising out of or related to Contractor's services, regardless of Client's negligence.",
+    "explanation": "The 'regardless of Client's negligence' phrase means YOU pay even if the client caused the problem. This is an unlimited financial liability clause that can bankrupt a solo freelancer.",
+    "negotiation": "Remove 'regardless of Client's negligence.' Add mutual indemnity: 'Each party shall indemnify the other for damages caused by their own acts or omissions only.'"
+  },
+  {
+    "type": "indemnity",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "Each party shall indemnify the other against claims arising from their own breach of this Agreement or gross negligence.",
+    "explanation": "Mutual indemnity tied to fault — each side is responsible for their own mistakes only. This is fair and standard.",
+    "negotiation": "No changes needed."
+  },
+  {
+    "type": "liability_cap",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "Contractor's liability under this Agreement shall be unlimited. Contractor waives any right to limitation of liability.",
+    "explanation": "No cap on your financial exposure. If anything goes wrong — even things beyond your control — you could owe more than you earned on the project.",
+    "negotiation": "Add: 'Contractor's total liability shall not exceed the total fees paid under this Agreement in the 3 months preceding the claim.'"
+  },
+  {
+    "type": "liability_cap",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "Neither party's liability shall exceed the total fees paid or payable under this Agreement.",
+    "explanation": "Standard mutual liability cap — your risk is capped at what you were paid. Fair for both sides.",
+    "negotiation": "No changes needed."
+  },
+  {
+    "type": "termination",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "Client may terminate this Agreement at any time, for any reason or no reason, without notice, and with no obligation to pay for work-in-progress or partially completed milestones.",
+    "explanation": "Client can fire you instantly with zero notice AND owes you nothing for work already done. This is a common trap that leaves freelancers unpaid.",
+    "negotiation": "Require: (1) 14-day written notice; (2) payment for all work completed up to termination date; (3) kill fee of 25% on in-progress milestones."
+  },
+  {
+    "type": "termination",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "Either party may terminate this Agreement with 14 days written notice. Upon termination, Client shall pay for all work completed to date of termination.",
+    "explanation": "Mutual termination right with proper notice and payment protection. Standard and fair.",
+    "negotiation": "No changes needed. Consider adding a kill fee clause for started-but-incomplete milestones."
+  },
+  {
+    "type": "payment_terms",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "Client shall pay invoices within 90 days of receipt. Client retains the right to dispute any invoice within 89 days without prejudice.",
+    "explanation": "90-day payment terms plus a 89-day dispute window means you could wait 6 months for payment with no recourse. Combined, these clauses can be used to delay payment indefinitely.",
+    "negotiation": "Counter with: 30-day payment terms, 7-day dispute window, 1.5% monthly interest on overdue amounts."
+  },
+  {
+    "type": "payment_terms",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "Client shall pay all undisputed invoices within 30 days of receipt. Disputes must be raised within 7 days of invoice receipt.",
+    "explanation": "Standard 30-day net terms with a clear, short dispute window. Fair for freelancers.",
+    "negotiation": "No changes needed. Consider adding an interest clause for late payment."
+  },
+  {
+    "type": "confidentiality",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "Contractor shall maintain in strict confidence all information learned during the engagement, including publicly available information, for a period of 10 years.",
+    "explanation": "Covering publicly available information in an NDA is unusually broad and may prevent you from using general industry knowledge. 10 years is excessive for most freelance work.",
+    "negotiation": "Exclude: publicly available information, general skills and knowledge. Reduce term to 2-3 years."
+  },
+  {
+    "type": "confidentiality",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "Contractor shall keep confidential all non-public proprietary information disclosed by Client during the project term and for 2 years thereafter, excluding information that becomes publicly available.",
+    "explanation": "Standard NDA scope — protects real trade secrets only, excludes public info, reasonable duration.",
+    "negotiation": "No changes needed. Standard protection for both sides."
+  },
+  {
+    "type": "governing_law",
+    "jurisdiction": "sri_lanka",
+    "predatory": true,
+    "text": "This Agreement shall be governed by and construed in accordance with the laws of the State of California, USA. Any disputes shall be resolved exclusively in courts located in San Francisco, California.",
+    "explanation": "If you're in Sri Lanka, being forced to litigate in California is practically impossible and expensive. This clause effectively removes your ability to enforce your rights.",
+    "negotiation": "Counter: 'Governed by Sri Lanka law. Disputes resolved via ICCSL arbitration in Colombo, or mutual agreement on a neutral jurisdiction.'"
+  },
+  {
+    "type": "governing_law",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "This Agreement shall be governed by the laws agreed upon by both parties. Any disputes shall be resolved via binding arbitration in a mutually agreed neutral location.",
+    "explanation": "Neutral governing law with arbitration — balanced and avoids either party having a home-court advantage.",
+    "negotiation": "No changes needed. Ensure the arbitration rules are specified (e.g., ICC, UNCITRAL)."
+  },
+  {
+    "type": "dispute_resolution",
+    "jurisdiction": "generic",
+    "predatory": true,
+    "text": "Client shall have the sole and exclusive right to determine whether a dispute exists and to unilaterally resolve all disputes arising under this Agreement.",
+    "explanation": "The client is judge, jury, and executioner of all disputes. This clause has no legal teeth in most jurisdictions but signals the client has no intention of negotiating fairly.",
+    "negotiation": "Replace entirely with: 'Disputes shall first be subject to 30-day good faith negotiation, then binding arbitration under [rules] if unresolved.'"
+  },
+  {
+    "type": "dispute_resolution",
+    "jurisdiction": "generic",
+    "predatory": false,
+    "text": "The parties agree to first attempt to resolve any dispute through good faith negotiation for 30 days, and if unsuccessful, through binding arbitration.",
+    "explanation": "Standard two-step dispute resolution — negotiation first, then arbitration. Fair and professional.",
+    "negotiation": "No changes needed. Good to specify the arbitration body (e.g., AAA, LCIA) and cost allocation."
+  }
+]
