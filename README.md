@@ -127,8 +127,4 @@ GET /results/{analysis_id}
 GET /health
 ```
 
-Full interactive docs: `http://localhost:8000/docs`
-
----
-
 > ⚖️ **Not legal advice.** ClauseGuard is an educational tool that flags potential risks. Always consult a qualified lawyer before signing contracts.
